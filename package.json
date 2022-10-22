@@ -1,0 +1,31 @@
+{
+  "name": "frame-cli",
+  "version": "1.0.0",
+  "description": "Pre packed express framework package CLI.",
+  "main": "bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajalan4/frame-cli.git"
+  },
+  "keywords": [
+    "frame-cli",
+    "framework",
+    "express"
+  ],
+  "author": "Kajalan4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kajalan4/frame-cli/issues"
+  },
+  "homepage": "https://github.com/kajalan4/frame-cli#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "pascal-case": "^3.1.2"
+  },
+  "bin": {
+    "frame": "./bin/cli.mjs --experimental-modules"
+  }
+}
